@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+  }
+  
+  .dashboard-container {
+    padding: 20px;
+    max-width: 1200px; 
+    margin: auto; 
+    background: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1, h2 {
+    color: #333; 
+  }
+  
+  .user-name {
+    margin: 10px 0;
+    color: #007bff; 
+  }
+  
+  .menu-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+  }
+  
+  .menu-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .company-info {
+    margin: 20px 0; 
+    padding: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background: #f9f9f9; 
+  }
+  
+  .user-info {
+    margin-top: 20px; 
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 10px; 
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+  }
+  
+  .user-table th {
+    background-color: #007bff;
+    color: white; 
+  }
+  
+  .edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .edit-button {
+    background-color: #ffc107; 
+    color: white; 
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800; 
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white; 
+    margin-left: 10px; 
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; 
+  }
+  
+  @media (max-width: 600px) {
+    .dashboard-container {
+      padding: 15px; 
+    }
+  
+    .user-table {
+      font-size: 14px; 
+    }
+  }
+  
